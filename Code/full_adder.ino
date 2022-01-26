@@ -37,7 +37,6 @@ void loop()
     }
     
     digitalWrite(C, bool_inputs[0]);
-    //Serial.print(bool_inputs[0]);
     
     for (int idx = 1; idx < len+1; idx++)
     {
